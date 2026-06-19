@@ -1,5 +1,9 @@
 import express from 'express';
-import { getTrendingTV, getTVTrailers, getTVDetails, getSimilarTVs, getTVsByCategory } from "../controllers/TV.controller.js";
+import { getTrendingTV,
+     getTVTrailers, 
+     getTVDetails,
+      getSimilarTVs, 
+      getTVsByCategory } from "../controllers/tv.controller.js";
 
 
 const router = express.Router();
